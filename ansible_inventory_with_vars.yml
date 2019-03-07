@@ -1,0 +1,22 @@
+# Example of vars applied to all hosts in a YAML Ansible inventory
+all:
+  hosts:
+     host1
+  vars:
+     myvar: myval
+  children:
+     group1: ....
+
+# Example of vars applied to child groups in a YAML Ansible inventory
+all:
+  children: 
+    world0: 
+      hosts: 
+        git.server.com: 
+        gui.server.com: 
+        keras.server.com: 
+        ldap.server.com: 
+        awx.server.com: 
+        radius.server.com: 
+      vars:
+        ansible_user: root
