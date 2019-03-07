@@ -20,3 +20,19 @@ all:
         radius.server.com: 
       vars:
         ansible_user: root
+
+# Example of nested children with host vars
+all:
+  children:
+    city_1:
+      children:
+        routers:
+          hosts:
+            city_1_router:
+              ansible_host: 10.9.10.7
+        switches:
+          children:
+            outside:
+              hosts:
+                city_1_outside_switch:
+                  ansible_host: 10.9.10.8
