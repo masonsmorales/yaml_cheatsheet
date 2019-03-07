@@ -1,0 +1,18 @@
+# YAML Guides
+https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+http://blogs.perl.org/users/tinita/2018/03/strings-in-yaml---to-quote-or-not-to-quote.html
+http://docs.octoprint.org/en/master/configuration/yaml.html
+https://symfony.com/doc/current/components/yaml/yaml_format.html
+
+# YAML Syntax Debugging Tool
+http://www.yamllint.com/
+
+# Reference
+https://en.wikipedia.org/wiki/YAML
+https://yaml.org/spec/1.1/
+https://yaml.org/spec/1.2/spec.html
+
+# Community
+irc.freenode.net
+#yaml for YAML specific questions
+#ansible IRC chat channel
